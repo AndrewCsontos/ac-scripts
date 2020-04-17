@@ -1,4 +1,4 @@
-const {resolveKcdScripts, resolveBin} = require('../utils')
+const {resolveKcdScripts, resolveBin, ifTypescript} = require('../utils')
 
 const kcdScripts = resolveKcdScripts()
 const doctoc = resolveBin('doctoc')
